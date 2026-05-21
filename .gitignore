@@ -1,0 +1,27 @@
+# Private SSH keys — NEVER commit these
+*.pem
+*.key
+*.ppk
+
+# Local-only archives (old V1/V2 backups — keep locally, don't push)
+Webiste Files/
+
+# Environment / secrets
+.env
+.env.local
+*.secret
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
+npm-debug.log*
