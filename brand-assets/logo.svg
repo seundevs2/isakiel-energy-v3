@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Isakiel Energy">
+  <rect x="75" y="6" width="25" height="10" rx="3" fill="#c9a35a"/>
+  <rect x="140" y="6" width="25" height="10" rx="3" fill="#c9a35a"/>
+  <rect x="14" y="16" width="212" height="248" rx="22" fill="#14271f" stroke="#c9a35a" stroke-width="3"/>
+
+  <g transform="translate(56 50)">
+    <circle cx="18" cy="22" r="12" fill="#c9a35a"/>
+    <g stroke="#c9a35a" stroke-width="3.5" stroke-linecap="round">
+      <line x1="18" y1="0" x2="18" y2="6"/>
+      <line x1="18" y1="38" x2="18" y2="44"/>
+      <line x1="-4" y1="22" x2="2" y2="22"/>
+      <line x1="34" y1="22" x2="40" y2="22"/>
+      <line x1="2" y1="6" x2="6" y2="10"/>
+      <line x1="30" y1="34" x2="34" y2="38"/>
+      <line x1="2" y1="38" x2="6" y2="34"/>
+      <line x1="30" y1="10" x2="34" y2="6"/>
+    </g>
+    <rect x="11" y="50" width="14" height="100" rx="2" fill="#c9a35a"/>
+  </g>
+
+  <g transform="translate(118 38)">
+    <path d="M 18 70 L 56 18 L 38 70 L 76 70 L 22 168 L 42 100 L 8 100 Z" fill="#c9a35a"/>
+  </g>
+
+  <text x="120" y="240" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-weight="500" font-size="14" fill="#c9a35a" letter-spacing="1.2">Isakiel Energy</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 340 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="IsaKiel Energy">
+  <!-- Battery terminal nubs on top of the container -->
+  <rect x="24" y="6" width="9" height="5" rx="1.5" fill="#c9a35a"/>
+  <rect x="48" y="6" width="9" height="5" rx="1.5" fill="#c9a35a"/>
+
+  <!-- Battery / inverter container body -->
+  <rect x="10" y="11" width="76" height="78" rx="11"
+        fill="#14271f" stroke="#c9a35a" stroke-width="2"/>
+
+  <!-- iE symbol inside container -->
+  <g transform="translate(20 24)">
+    <!-- "i" stem -->
+    <rect x="3" y="20" width="6" height="26" rx="1.2" fill="#c9a35a"/>
+
+    <!-- "i" sun dot (the dot becomes a sun) -->
+    <circle cx="6" cy="9" r="4" fill="#c9a35a"/>
+    <g stroke="#c9a35a" stroke-width="1.8" stroke-linecap="round">
+      <line x1="6"  y1="0"   x2="6"   y2="2.5"/>
+      <line x1="6"  y1="15.5" x2="6"  y2="18"/>
+      <line x1="-3" y1="9"   x2="-0.5" y2="9"/>
+      <line x1="12.5" y1="9" x2="15"  y2="9"/>
+      <line x1="0"  y1="3"   x2="1.7" y2="4.7"/>
+      <line x1="10.3" y1="13.3" x2="12" y2="15"/>
+      <line x1="0"  y1="15"  x2="1.7" y2="13.3"/>
+      <line x1="10.3" y1="4.7" x2="12" y2="3"/>
+    </g>
+
+    <!-- "E" as a stylized lightning bolt with E-form (3 horizontal shelves + sharp angular cuts) -->
+    <path d="M 23 4 L 38 4 L 31 16 L 39 16 L 31 28 L 39 28 L 21 50 L 27 32 L 21 32 L 27 20 L 21 20 Z"
+          fill="#c9a35a"/>
+  </g>
+
+  <!-- Wordmark: IsaKiel -->
+  <text x="104" y="52" font-family="'Playfair Display', Georgia, serif"
+        font-weight="700" font-size="38" fill="#14271f" letter-spacing="0.5">IsaKiel</text>
+
+  <!-- Tagline: ENERGY -->
+  <text x="105" y="74" font-family="Inter, 'Segoe UI', sans-serif"
+        font-weight="600" font-size="13" fill="#c9a35a" letter-spacing="6">ENERGY</text>
+</svg>
